@@ -10,3 +10,4 @@ c) O(n), linear. This is slightly tricky because of the recursive call so you mi
 
 2) Of the methods I am familiar with, I think a binary search minimizes the number of checks you need to make with the data. I would go to the middle floor and see if the egg breaks when I drop the egg, if it does I would eliminate the top half of the building, if not, I would eliminate the bottom half. I would then cut that half of the building in half again, and check the 1/4 or 3/4 value of _f_. I would repeat this process until I got the value of _f_.
 
+new branch
