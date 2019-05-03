@@ -107,6 +107,8 @@ class SortingRobot:
                 self.move_right()
             else:
                 self.swap_item()
+        elif self.can_move_left() == True:
+            self.move_left()
         else:
             print('Done!')
 
